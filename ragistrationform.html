@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment1_day2</title>
+</head>
+<body>
+    <h1>Ragistration Form</h1><br>
+    <form action="/">
+        <label for="Username:">Username:</label>
+        <input type="text" id="Username:" placeholder="Enter your Name"><br>
+        <label for="Email:">Email:</label>
+        <input type="Email" id="Email:" placeholder="Enter your Email"><br>
+        <label for="Password:">Password:</label>
+        <input type="Password" id="Password:" placeholder="Enter your Password"><br>
+        <label>Gender:</label>
+      <input type="radio" name="gender" id="male" value="Male">
+      <label for="Male">Male</label>
+      <input type="radio" name="gender" id="female" value="Female">
+       <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Other" value="Other">
+       <label for="Other">Other</label><br>
+       <label for="department">Department:</label>
+       <select id="department" name="department">
+      <option value="CSE">Computer Science</option>
+      <option value="ECE">Electronics</option>
+      <option value="ME">Mechanical</option>
+      <option value="CE">Civil</option>
+    </select><br><br>
+    <label>Select Events You Want to Participate In:</label><br>
+    <input type="checkbox" id="coding" name="events" value="Coding">
+    <label for="coding">Coding</label><br>
+    <input type="checkbox" id="robotics" name="events" value="Robotics">
+    <label for="robotics">Robotics</label><br>
+    <input type="checkbox" id="quiz" name="events" value="Quiz">
+    <label for="quiz">Tech Quiz</label><br>
+    <input type="checkbox" id="design" name="events" value="Design">
+    <label for="design">UI/UX Design</label><br><br>
+     <input type="submit" value="Register">
+    </form>
+</body>
